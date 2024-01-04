@@ -87,8 +87,8 @@ static NSString* kFileName = @"";
     // Generate random file size for this document
 
     kFileName = [[NSUUID UUID] UUIDString];
-    NSLog(@"[EasyPdfViewerPlugin] File has %zd pages", numberOfPages);
-    NSLog(@"[EasyPdfViewerPlugin] File will be saved in cache as %@", kFileName);
+    //NSLog(@"[EasyPdfViewerPlugin] File has %zd pages", numberOfPages);
+    //NSLog(@"[EasyPdfViewerPlugin] File will be saved in cache as %@", kFileName);
     return [NSString stringWithFormat:@"%zd", numberOfPages];
 }
 
